@@ -17,15 +17,19 @@
 
 body {
   background: rgb(41, 118, 219);
+  
 }
- 
+ img{
+  top: auto;
+ }
 html {
   height: 700px ;
 }
-
+h2{
+  margin-bottom: 0;
+}
 .head{
   margin-bottom: 100px;
-  font-size: var(--fs-400);
 }
 /****SIDE BAR**************************************************************************************************************************************************/
 .sidenav {
@@ -85,7 +89,6 @@ html {
     align-items: center;
     height: 100%;
     background: rgb(41, 118, 219);
-    margin-bottom: 300px;
 }
 
 .services h1 {
@@ -106,11 +109,13 @@ html {
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
+  height: 900px;
+  margin-top: 90px;
 }
 
-.services_card {
-    height: 280px;
-    width: 170px;
+.services_card1 {
+    height: auto;
+    width:auto;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -121,25 +126,75 @@ html {
     border-style: solid;
     border-radius: 5px;
     border-color: #1eacee;
-
+    height: 490px;
 }
-/*
-.services_card h2 {
+.services_card2 {
+  height: auto;
+  width: 170px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  background: rgb(41, 118, 219);
+  transition: .3s ease-in-out;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1eacee;
+  height: 400px;
+}
+.services_card3 {
+  height: auto;
+  width: 170px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  background: rgb(41, 118, 219);
+  transition: .3s ease-in-out;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1eacee;
+  height: 400px;
+}
+.services_card4 {
+  height: auto;
+  width: 170px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  background: rgb(41, 118, 219);
+  transition: .3s ease-in-out;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1eacee;
+  height: 400px;
+}
+
+h2 {
     text-align: center;
+    left: 200px;
 }
 
-.services p {
-    font-size: 1.5rem;
-    margin-top: 20px;
+.paragraph {
+    font-size: 1rem;
     text-align: center;
+    top: 500px;
+    margin-top:0;
 
 }
 
 
 
-.services_card:nth-child(2) {
-    background: #07d3b8;
+.services_card:nth-child(1) {
     background: rgb(41, 118, 219);
+
+}
+.services_card:nth-child(2) {
+  background: rgb(41, 118, 219);
 
 }
 
@@ -147,10 +202,9 @@ html {
   background: rgb(41, 118, 219);
 }
 
-.services_card:last-child {
+.services_card:last-child(4) {
   background: rgb(41, 118, 219);
 }
-*/
 /*************************** customizable snowflake styling ********************************************************************************************************************************/
 .snowflake {
   color: #fff;
@@ -316,8 +370,7 @@ html {
   flex-direction: column;
   width: 100vw;
   position: absolute;
-  top: 800px;
-  margin-top: 100px;
+  top: 1200px;
 }
 
 .Snow_links {
@@ -353,32 +406,21 @@ html {
   transition: .3s ease-out;
 
 }
-/***************************************************************************************/
-.services {
+/**** EVENTS PAGE*************************************************************************************************************************/
+.container {
   display: flex;
-  width: 80%;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Adding background image to each section*/
 .one {
-  background: url(
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203171024/CSSTutorial.png);
+  background: url(moutain.jpg);
 }
 .two {
-  background: url(
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203170945/HTML-Tutorials.png);
+  background: url(camp_fire_452513506_850pixels.jpg);
 }
-.three {
-  background: url(
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210210175213/JavaScriptTutorial.png);
-}
-.four {
-  background: url(
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210301162100/jquery.png);
-}
-
-/* Background properties and 
-   transition effect to section */
-.services_card {
+.section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -389,8 +431,9 @@ https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210301162100/jquery.png
   position: relative;
   transition: all 0.7s ease-out;
 }
-
-
-.services_card.active {
+.section.active {
   flex: 3;
 }
+/****DROPDOWN***********************************************************************************************************************************/
+
+
