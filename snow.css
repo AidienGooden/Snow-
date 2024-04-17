@@ -372,6 +372,16 @@ h2 {
   position: absolute;
   top: 1200px;
 }
+.Event_Footer {
+  background-color: #4291db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  top: 900px;
+}
 
 .Snow_links {
   width: 100%;
@@ -412,6 +422,12 @@ h2 {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+
+}
+.slide{
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
 }
 /*Adding background image to each section*/
 .one {
@@ -435,5 +451,9 @@ h2 {
   flex: 3;
 }
 /****DROPDOWN***********************************************************************************************************************************/
-
+.Below{
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
