@@ -16,21 +16,61 @@
 }
 
 body {
-  background: rgb(41, 118, 219);
-  
+  background: rgb(79, 138, 214);
+
 }
- img{
+
+h1 {
+  font-size: 4.5rem;
+}
+
+img {
   top: auto;
- }
-html {
-  height: 700px ;
 }
-h2{
+
+html {
+  height: 700px;
+}
+
+h2 {
   margin-bottom: 0;
 }
-.head{
-  margin-bottom: 100px;
+
+
+/***********Landing Page*************************************************************************************************************************************/
+
+.Frontpart img{
+  margin-left: 9rem;
+  margin-top: 5rem;
+  
 }
+.Frontpart img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: .10s ease-in-out;
+}
+.head {
+  margin-bottom: 100px;
+  margin: auto 9rem;
+  background-color: #3a82c5;
+
+}
+
+.head :hover {
+  color: rgb(248, 238, 238);
+  cursor: grab;
+  transition: .5s ease-in-out;
+}
+
+.snowHead2 {
+  color: white;
+
+}
+.ImgBack{
+  background-color: #4291db;
+  margin: 3rem;
+}
+
 /****SIDE BAR**************************************************************************************************************************************************/
 .sidenav {
   height: 100%;
@@ -81,31 +121,33 @@ h2{
   color: #fff;
   font: family 2px;
 }
+
 /**Cards*****************************************************************************************************************************************************************************************************/
 .services {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background: rgb(41, 118, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: rgb(41, 118, 219);
+  margin-top: -70px;
 }
 
 .services h1 {
-    background: #ff817f;
-    background: rgb(41, 118, 219);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.5rem;
-    margin: 5rem;
+  background: #ff817f;
+  background: rgb(41, 118, 219);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  margin: 5rem;
 }
 
 .services_wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -114,20 +156,22 @@ h2{
 }
 
 .services_card1 {
-    height: auto;
-    width:auto;
-    border-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    background: rgb(41, 118, 219);
-    transition: .3s ease-in-out;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #1eacee;
-    height: 490px;
+  height: auto;
+  width: auto;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  background: rgb(41, 118, 219);
+  transition: .3s ease-in-out;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1eacee;
+  height: 490px;
 }
+
+
 .services_card2 {
   height: auto;
   width: 170px;
@@ -143,6 +187,7 @@ h2{
   border-color: #1eacee;
   height: 400px;
 }
+
 .services_card3 {
   height: auto;
   width: 170px;
@@ -158,6 +203,7 @@ h2{
   border-color: #1eacee;
   height: 400px;
 }
+
 .services_card4 {
   height: auto;
   width: 170px;
@@ -175,24 +221,25 @@ h2{
 }
 
 h2 {
-    text-align: center;
-    left: 200px;
+  text-align: center;
+  left: 200px;
 }
 
 .paragraph {
-    font-size: 1rem;
-    text-align: center;
-    top: 500px;
-    margin-top:0;
+  font-size: 1rem;
+  text-align: center;
+  top: 500px;
+  margin-top: 0;
 
 }
 
 
 
 .services_card:nth-child(1) {
-    background: rgb(41, 118, 219);
+  background: rgb(41, 118, 219);
 
 }
+
 .services_card:nth-child(2) {
   background: rgb(41, 118, 219);
 
@@ -205,10 +252,52 @@ h2 {
 .services_card:last-child(4) {
   background: rgb(41, 118, 219);
 }
+
+.card {
+  border-radius: 5px;
+  width: 500px;
+  background: transparent;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img_lesson {
+  border-radius: 5px;
+  width: 350px;
+  height: 300px;
+  margin-left: 80px;
+}
+
+.list1 {
+  margin-left: 80px;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.list2 {
+  margin-left: 240px;
+  font-size: x-large;
+}
+
+.list3 {
+  margin-left: 240px;
+  font-size: x-large;
+}
+
+.container_card {
+  display: flex;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*************************** customizable snowflake styling ********************************************************************************************************************************/
 .snowflake {
   color: #fff;
-  font-size: 1em;
+  font-size: 2.5em;
   font-family: Arial;
   text-shadow: 0 0 1px #000;
 }
@@ -372,6 +461,17 @@ h2 {
   position: absolute;
   top: 1200px;
 }
+.Lesson_Footer {
+  background-color: #4291db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  top: 1500px;
+}
+
 .Event_Footer {
   background-color: #4291db;
   display: flex;
@@ -381,6 +481,16 @@ h2 {
   width: 100vw;
   position: absolute;
   top: 900px;
+}
+.Report_Footer {
+  background-color: #4291db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  top: 950px;
 }
 
 .Snow_links {
@@ -416,6 +526,7 @@ h2 {
   transition: .3s ease-out;
 
 }
+
 /**** EVENTS PAGE*************************************************************************************************************************/
 .container {
   display: flex;
@@ -424,18 +535,23 @@ h2 {
   margin-right: auto;
 
 }
-.slide{
+
+.slide {
   display: flex;
   flex-direction: column;
   height: 1000px;
+  overflow: hidden;
 }
+
 /*Adding background image to each section*/
 .one {
   background: url(moutain.jpg);
 }
+
 .two {
   background: url(camp_fire_452513506_850pixels.jpg);
 }
+
 .section {
   background-size: cover;
   background-position: center;
@@ -447,13 +563,67 @@ h2 {
   position: relative;
   transition: all 0.7s ease-out;
 }
+
 .section.active {
   flex: 3;
 }
+
 /****DROPDOWN***********************************************************************************************************************************/
-.Below{
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
+.dropbtn {
+  color: rgb(18, 68, 206);
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid rgb(42, 131, 204);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 100px 50px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00000000;
+  min-width: 200px;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  font-family: helvetica;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+hr.solid {
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #000000;
+  border-bottom: none;
+}
+
+.show {
+  display: block;
+}
+/********************************************************************/
+.Below {
+  margin-top: 30px;
+  margin-left: 20%;
+  font-size: xx-large;
+  color: #d3dde2;
+}
+.weatherwidget-io{
+  height: 900px;
+}
+.Maps{
+  margin-left: 150px;
+}
+.Maps:hover{
+  cursor: crosshair;
+}
