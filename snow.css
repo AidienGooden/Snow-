@@ -39,16 +39,18 @@ h2 {
 
 /***********Landing Page*************************************************************************************************************************************/
 
-.Frontpart img{
+.Frontpart img {
   margin-left: 9rem;
   margin-top: 5rem;
-  
+
 }
-.Frontpart img:hover{
+
+.Frontpart img:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition: .10s ease-in-out;
 }
+
 .head {
   margin-bottom: 100px;
   margin: auto 9rem;
@@ -66,19 +68,44 @@ h2 {
   color: white;
 
 }
-.ImgBack{
+
+.ImgBack {
   background-color: #4291db;
   margin: 3rem;
 }
 
 .list1 {
-  margin-left: 300px;
+  margin-left: -40px;
   font-size: x-large;
+  color: rgb(0, 35, 190);
 }
 
 .list2 {
   margin-left: 300px;
   font-size: x-large;
+}
+
+.Timer {
+  margin-left: 525px;
+  margin-bottom: 0;
+  color: #082864;
+}
+
+.Display {
+  font-size: xx-large;
+  color: #082864;
+}
+
+.Time {
+  font-size: xx-large;
+  margin-left: -150px;
+  color: #082864;
+}
+
+.timer {
+  font-size: 35px;
+  margin-left: 50px;
+  color: #082864;
 }
 
 
@@ -180,7 +207,7 @@ h2 {
   height: 300px;
 }
 
-.services_card1:hover{
+.services_card1:hover {
   transition: .5s ease-in-out;
   cursor: pointer;
   transform: scale(1.04);
@@ -201,7 +228,7 @@ h2 {
   height: 300px;
 }
 
-.services_card2:hover{
+.services_card2:hover {
   transition: .5 ease-in-out;
   cursor: pointer;
   transform: scale(1.04);
@@ -222,7 +249,7 @@ h2 {
   height: 300px;
 }
 
-.services_card3:hover{
+.services_card3:hover {
   transition: .5s ease-in-out;
   cursor: pointer;
   transform: scale(1.04);
@@ -242,7 +269,8 @@ h2 {
   border-color: #1eacee;
   height: 300px;
 }
-.services_card4:hover{
+
+.services_card4:hover {
   transition: .5s ease-in-out;
   cursor: pointer;
   transform: scale(1.04);
@@ -281,16 +309,16 @@ h2 {
   background: rgb(41, 118, 219);
 }
 
-.card {
+.card_no {
   border-radius: 5px;
-  width: 500px;
+  margin-left: -70px;
   background: transparent;
   position: relative;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  transition:  100s ease-in-out;
+  transition: 100s ease-in-out;
   transform: scale(100);
 }
 
@@ -466,7 +494,7 @@ h2 {
   color: #000;
 }
 
-/************************************************************************************************************************************************************************************************************************************************************/
+/*****FOOTER*******************************************************************************************************************************************************************************************************************************************************/
 .Snow_Footer {
   background-color: #4291db;
   display: flex;
@@ -477,6 +505,7 @@ h2 {
   position: absolute;
   top: 1200px;
 }
+
 .Lesson_Footer {
   background-color: #4291db;
   display: flex;
@@ -496,8 +525,9 @@ h2 {
   flex-direction: column;
   width: 100vw;
   position: absolute;
-  top: 1500px;
+  top: 1000px;
 }
+
 .Report_Footer {
   background-color: #4291db;
   display: flex;
@@ -508,7 +538,8 @@ h2 {
   position: absolute;
   top: 950px;
 }
-.Employment_Footer{
+
+.Employment_Footer {
   background-color: #4291db;
   display: flex;
   justify-content: center;
@@ -618,7 +649,7 @@ h2 {
   min-width: 200px;
   z-index: 1;
   margin-top: 20px;
-  
+
   margin-left: 570px;
 }
 
@@ -640,20 +671,24 @@ hr.solid {
 .show {
   display: block;
 }
+
 /********************************************************************/
 .Below {
-  margin-top: 30px;
+  margin-top: 80px;
   margin-left: 20%;
   font-size: xx-large;
   color: #d3dde2;
 }
-.weatherwidget-io{
+
+.weatherwidget-io {
   height: 900px;
 }
-.Maps{
+
+.Maps {
   margin-left: 150px;
 }
-.Maps:hover{
+
+.Maps:hover {
   cursor: crosshair;
 }
 
@@ -661,7 +696,7 @@ hr.solid {
 
 /****EMPLOYMENT************************************************************************************/
 .card_Job {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 70%;
   border-radius: 5px;
@@ -669,7 +704,7 @@ hr.solid {
 }
 
 .card_Job:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img_Job {
@@ -679,8 +714,9 @@ hr.solid {
 .container_Job {
   padding: 2px 16px;
 }
+
 .card_Job2 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 70%;
   border-radius: 5px;
@@ -688,7 +724,7 @@ hr.solid {
 }
 
 .card_Job2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img_Job2 {
@@ -698,40 +734,46 @@ hr.solid {
 .container_Job2 {
   padding: 2px 16px;
 }
-.Work_Head{
+
+.Work_Head {
   margin-left: 350px;
 }
-.Workers{
+
+.Workers {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
+
 .button_1 {
-  background-color:rgb(26, 145, 214);;
+  background-color: rgb(26, 145, 214);
+  ;
   border: none;
   color: rgb(255, 255, 255);
-  padding: 5px ;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px ;
+  margin: 4px;
   cursor: pointer;
   width: 150px;
   margin-left: 260px;
-  
+
 }
+
 .button_2 {
-  background-color:rgb(26, 145, 214);;
+  background-color: rgb(26, 145, 214);
+  ;
   border: none;
   color: rgb(253, 253, 253);
-  padding: 5px ;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  margin: 4px ;
+  margin: 4px;
   width: 150px;
   margin-left: 200px;
 }
@@ -741,56 +783,54 @@ hr.solid {
 
 /******Media**************************************This goes on bottom to work***********************************************************************/
 @media screen and (max-width: 992px) {
-  html{
-
-  }
+  html {}
 }
 
 /* Mobile styling */
 @media screen and (max-width: 600px) {
-  html{
+  html {}
 
-  }
-  h1{
+  h1 {
     font-size: 25px;
     text-align: center;
   }
-  
-  img{
+
+  img {
     width: 125px;
     height: 115px;
   }
-/*Launch Page Styling*****************************************************************************************************/
 
-  .Frontpart{
+  /*Launch Page Styling*****************************************************************************************************/
+
+  .Frontpart {
     margin: 0;
   }
 
-  .head{
+  .head {
     margin: auto 10px;
     font-size: small;
   }
 
-  .ImgBack{
-   justify-content: center;
+  .ImgBack {
+    justify-content: center;
     margin: 1rem;
   }
 
   .list1 {
-    margin-left: 10px;
-    font-size: medium;
+    margin-left: 300px;
+    font-size: small;
   }
-  
+
   .list2 {
     margin-left: 10px;
     font-size: medium;
   }
-  
+
   /*Lesson Page Styling**************************************************************************************/
-  
+
   .services_wrapper {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 50px;
     background-color: #2196F3;
@@ -798,7 +838,7 @@ hr.solid {
     height: 700px;
     margin-top: 90px;
   }
-  
+
   .services_card1 {
     border-radius: 7px;
     display: flex;
@@ -812,14 +852,117 @@ hr.solid {
     border-color: #1eacee;
     height: 150px;
   }
-  .services_card1 h2{
+
+  .services_card1 h2 {
     font-size: 1rem;
   }
-  .paragraph{
+
+  .paragraph {
     font-size: 5px;
+
+  }
+
+  .services_card2 {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    background: rgb(41, 118, 219);
+    transition: .3s ease-in-out;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #1eacee;
+    height: 150px;
+  }
+
+  .services_card2 h2 {
+    font-size: 1rem;
   }
 
 
-  
-  
+  .services_card3 {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    background: rgb(41, 118, 219);
+    transition: .3s ease-in-out;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #1eacee;
+    height: 150px;
+  }
+
+  .services_card3 h2 {
+    font-size: 1rem;
+  }
+
+  .services_card4 {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    background: rgb(41, 118, 219);
+    transition: .3s ease-in-out;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #1eacee;
+    height: 150px;
+  }
+
+  .services_card4 h2 {
+    font-size: 1rem;
+  }
+
+  /**SNOW REPORT RESPONSIVE***************************************************************/
+  .Maps {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 480px;
+    z-index: -999;
+  }
+
+
+
+
+
+
+  /*EMPLOYMENT*********************************************/
+    .Workers{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card_Job{
+      margin-left: 10px;
+      width: 90%;
+    }
+    .container_Job{
+      margin-left: 10px;
+    }
+    .button_1{
+      margin-left: 60px;
+      width: 50%;
+    }
+    .button_2{
+      margin-left: 70px;
+      width: 50%;
+    }
+    .card_Job2{
+      margin-left: 20px;
+      width: 90%;
+    }
+    .container_Job2{
+      margin-left: -10px;
+    }
+    .Employment_Footer{
+      top: 1900px;
+    }
+
+
+
+
 }

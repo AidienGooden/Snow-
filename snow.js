@@ -57,7 +57,7 @@ let x = setInterval(function(){
 
 
 
-
+//EVENT PAGE
 
   document.getElementById("drop").addEventListener("click", function(e) {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -70,6 +70,8 @@ let x = setInterval(function(){
         .forEach(openDropdown => openDropdown.classList.remove('show'))
     } 
   });
+  
+  
 
   //Empolyment//
   function ValidateForm(frm) {
