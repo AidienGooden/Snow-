@@ -46,7 +46,7 @@ h2 {
 }
 .Frontpart img:hover{
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: .10s ease-in-out;
 }
 .head {
@@ -70,6 +70,17 @@ h2 {
   background-color: #4291db;
   margin: 3rem;
 }
+
+.list1 {
+  margin-left: 300px;
+  font-size: x-large;
+}
+
+.list2 {
+  margin-left: 300px;
+  font-size: x-large;
+}
+
 
 /****SIDE BAR**************************************************************************************************************************************************/
 .sidenav {
@@ -151,13 +162,11 @@ h2 {
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
-  height: 900px;
+  height: 700px;
   margin-top: 90px;
 }
 
 .services_card1 {
-  height: auto;
-  width: auto;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -168,12 +177,16 @@ h2 {
   border-style: solid;
   border-radius: 5px;
   border-color: #1eacee;
-  height: 490px;
+  height: 300px;
 }
 
+.services_card1:hover{
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
+}
 
 .services_card2 {
-  height: auto;
   width: 170px;
   border-radius: 7px;
   display: flex;
@@ -185,11 +198,16 @@ h2 {
   border-style: solid;
   border-radius: 5px;
   border-color: #1eacee;
-  height: 400px;
+  height: 300px;
+}
+
+.services_card2:hover{
+  transition: .5 ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
 }
 
 .services_card3 {
-  height: auto;
   width: 170px;
   border-radius: 7px;
   display: flex;
@@ -201,11 +219,16 @@ h2 {
   border-style: solid;
   border-radius: 5px;
   border-color: #1eacee;
-  height: 400px;
+  height: 300px;
+}
+
+.services_card3:hover{
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
 }
 
 .services_card4 {
-  height: auto;
   width: 170px;
   border-radius: 7px;
   display: flex;
@@ -217,7 +240,12 @@ h2 {
   border-style: solid;
   border-radius: 5px;
   border-color: #1eacee;
-  height: 400px;
+  height: 300px;
+}
+.services_card4:hover{
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
 }
 
 h2 {
@@ -262,6 +290,8 @@ h2 {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition:  100s ease-in-out;
+  transform: scale(100);
 }
 
 .img_lesson {
@@ -271,21 +301,7 @@ h2 {
   margin-left: 80px;
 }
 
-.list1 {
-  margin-left: 80px;
-  font-size: xx-large;
-  margin-bottom: 20px;
-}
 
-.list2 {
-  margin-left: 240px;
-  font-size: x-large;
-}
-
-.list3 {
-  margin-left: 240px;
-  font-size: x-large;
-}
 
 .container_card {
   display: flex;
@@ -469,7 +485,7 @@ h2 {
   flex-direction: column;
   width: 100vw;
   position: absolute;
-  top: 1500px;
+  top: 1300px;
 }
 
 .Event_Footer {
@@ -480,7 +496,7 @@ h2 {
   flex-direction: column;
   width: 100vw;
   position: absolute;
-  top: 900px;
+  top: 1500px;
 }
 .Report_Footer {
   background-color: #4291db;
@@ -491,6 +507,16 @@ h2 {
   width: 100vw;
   position: absolute;
   top: 950px;
+}
+.Employment_Footer{
+  background-color: #4291db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  top: 1700px;
 }
 
 .Snow_links {
@@ -577,6 +603,7 @@ h2 {
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: 100px 50px;
+  margin-left: 600px;
 }
 
 .dropdown {
@@ -591,6 +618,8 @@ h2 {
   min-width: 200px;
   z-index: 1;
   margin-top: 20px;
+  
+  margin-left: 570px;
 }
 
 .dropdown-content a {
@@ -626,4 +655,171 @@ hr.solid {
 }
 .Maps:hover{
   cursor: crosshair;
+}
+
+
+
+/****EMPLOYMENT************************************************************************************/
+.card_Job {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 70%;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.card_Job:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img_Job {
+  border-radius: 5px 5px 0 0;
+}
+
+.container_Job {
+  padding: 2px 16px;
+}
+.card_Job2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 70%;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+
+.card_Job2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img_Job2 {
+  border-radius: 5px 5px 0 0;
+}
+
+.container_Job2 {
+  padding: 2px 16px;
+}
+.Work_Head{
+  margin-left: 350px;
+}
+.Workers{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.button_1 {
+  background-color:rgb(26, 145, 214);;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px ;
+  cursor: pointer;
+  width: 150px;
+  margin-left: 260px;
+  
+}
+.button_2 {
+  background-color:rgb(26, 145, 214);;
+  border: none;
+  color: rgb(253, 253, 253);
+  padding: 5px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px ;
+  width: 150px;
+  margin-left: 200px;
+}
+
+
+
+
+/******Media**************************************This goes on bottom to work***********************************************************************/
+@media screen and (max-width: 992px) {
+  html{
+
+  }
+}
+
+/* Mobile styling */
+@media screen and (max-width: 600px) {
+  html{
+
+  }
+  h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  img{
+    width: 125px;
+    height: 115px;
+  }
+/*Launch Page Styling*****************************************************************************************************/
+
+  .Frontpart{
+    margin: 0;
+  }
+
+  .head{
+    margin: auto 10px;
+    font-size: small;
+  }
+
+  .ImgBack{
+   justify-content: center;
+    margin: 1rem;
+  }
+
+  .list1 {
+    margin-left: 10px;
+    font-size: medium;
+  }
+  
+  .list2 {
+    margin-left: 10px;
+    font-size: medium;
+  }
+  
+  /*Lesson Page Styling**************************************************************************************/
+  
+  .services_wrapper {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    background-color: #2196F3;
+    padding: 10px;
+    height: 700px;
+    margin-top: 90px;
+  }
+  
+  .services_card1 {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    background: rgb(41, 118, 219);
+    transition: .3s ease-in-out;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #1eacee;
+    height: 150px;
+  }
+  .services_card1 h2{
+    font-size: 1rem;
+  }
+  .paragraph{
+    font-size: 5px;
+  }
+
+
+  
+  
 }
